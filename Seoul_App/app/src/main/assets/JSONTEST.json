@@ -1,0 +1,6 @@
+{
+  "DESCRIPTION" : {"MATTER":"재질","SCALE":"수량ㆍ규모","MANAGE_AGENCY":"관리청","NAME_KOR":"문화재명칭_한글","NAME_CNI":"한자","MANAGE_NUM":"문화재 일련번호","NAME_ENG":"영문","CANCEL_DATE":"해제일","FORM":"구조ㆍ형식","STAND_ADDR":"기타주소","STANDARD":"규격","FILE_ATT":"측량성과","MAKEYEAR":"조성연대","STAND_REGION":"소재지ㆍ보관장소_자치구","APP_DATE":"지정일"},
+  "DATA" : [
+    {"MATTER":"석조 기단, 목조","SCALE":" 건물 1棟, 토지 169.8㎡","MANAGE_AGENCY":null,"NAME_KOR":"봉황각","NAME_CNI":"鳳凰閣","MANAGE_NUM":11001,"NAME_ENG":"Bonghwanggak","CANCEL_DATE":null,"FORM":"정면 5칸, 측면 5칸, 팔작지붕집","STAND_ADDR":" 삼양로 173길  107-12 (우이동)","STANDARD":"부동산건조물 대상항목 아님","FILE_ATT":null,"MAKEYEAR":null,"STAND_REGION":"강북구","APP_DATE":"19690918"},
+  ]
+}

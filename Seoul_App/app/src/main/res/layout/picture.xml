@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:padding="0dp"
+            android:background="@drawable/left"
+            android:id="@+id/btnPrev"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#005E75"
+            android:text="사진으로 문화재 보기"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:padding="0dp"
+            android:background="@drawable/right"
+            android:id="@+id/btnNext"/>
+
+    </LinearLayout>
+
+   <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="wrap_content"
+       android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+       <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="장춘단비"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/a1"/>
+       <TextView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:text="장충단은 조선 고종 32년(1895)에 일어난 명성황후 시해사건 당시 일본인을 물리치다 순사한 홍계훈, 이경직 및 여러 신하들의 혼을 위로하기 위해 세운 제단이다.
+                비는 반듯한 사각받침돌 위로 비몸을 세운 간결한 구조이다. 앞면에는 ‘장충단(奬忠檀)’이라는 비의 명칭이 적혀 있는데, 순종이 황태자시절에 쓴 글씨이다. 뒷면에는 민영환이 쓴 비문이 기록되어 있다."/>
+
+   </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="봉황각"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a2"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="1912년 의암 손병희 선생이 세운 것이다. 일제에 빼앗긴 국권을 찾기 위해 천도교 지도자를 훈련시킨 곳으로 의창수도원이라고도 부른다. 봉황각이란 이름은 천도교 교조 최제우가 남긴 시에 자주 나오는 ‘봉황’이라는 낱말을 딴 것이다. 현재 걸려있는 현판은 오세창이 썼다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="낙성대"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a4"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="거란의 침략을 막아내는 데 큰 공을 세우고 백성들을 다스리는데 많은 노력을 기울인 장군은 그 당시 백성들에게 흠모와 존경의 대상이었다. 백성들은 장군의 공적을 찬양하기 위해 집터에 삼층석탑을 세우고, 장군이 태어날 때 별이 떨어졌다고 하여 낙성대라 이름지었다고 한다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="정업원 터 비각"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a5"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="단종의 왕비인 정순왕후 송씨를 추모하기 위해 세운 비이다.
+
+송씨는 단종이 영월에서 죽음을 당하자, 정업원에 머물며 평생동안 그의 명복을 빌었다. 정업원은 여승방(女僧房)으로 원래 창덕궁에서 그리 멀지 않은 도성안에 있는 것인데, 성 밖에 있었다는 전설에 따라 이곳에 비를 세우고 비각도 짓게 되었다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="용양봉저정"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a6"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="정조(재위 1776∼1800)가 그의 부친 사도세자가 묻힌 수원 화산의 현륭원을 찾을 때 잠시 쉬던 정자이다. 효심이 지극했던 정조는 사도세자의 묘가 있는 현륭원을 자주 찾았다고 한다. 그 때마다 한강에 배다리를 임시로 만들어 건넜는데, 시간이 걸렸기 때문에 잠시 쉴 자리가 필요하여 이 정자를 지었다고 전한다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="성제묘"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a7"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="중국 삼국시대의 이름난 장군인 관우 운장의 영정을 모신 관왕묘로 서울의 옛성 동·서·남·북 4곳에 있던 관왕묘 중 하나이다.
+
+규모는 앞면 3칸·옆면 1칸이며 지붕은 옆면에서 볼 때 사람 인(人)자 모양을 한 맞배지붕이다. 4쪽 여닫이문을 달았고 안쪽에 관우 부부상을 모시고 있다.
+"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="사육신묘"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a8"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="사육신의 충성심과 장렬한 의기를 추모하기 위해 숙종 7년(1681)에 이곳에 서원을 세우고, 정조 6년(1782)에는 신도비(神道碑:왕이나 고관 등의 평생 업적을 기리기 위해 무덤 근처 길가에 세우는 비)를 세워 두었다.
+
+1955년에는 사육신비를 세우기도 하였고, 이후 묘역을 확장하여 새롭게 정비하여 충효사상을 기리고자 하였다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="종친부"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a9"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="조선왕조 역대 모든 제왕의 어보(왕의 도장)와 영정(초상화)을 보관하고, 왕과 왕비의 의복을 관리하며 종실제군(宗室諸君)의 봉작승습·관혼상제 등 모든 사무를 맡아보던 곳이다. 조선 전기에는 ‘재내제군소’라 하였으나 여러 차례 그 명칭과 기능이 바뀌었다가, 세종 12년(1430)에 종친부라 하였다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="지덕사"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a11"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="지덕이란 ‘인격이 덕의 극치에 이르렀다’는 뜻으로 세조가 친히 지어준 이름이라고 한다. 사당 안에는 양녕대군과 부인 광산 김씨의 위패가 모셔져 있고, 양녕대군의 친필인 숭례문 현판의 탁본과 정조가 지은 지덕사기, 허목이 지은 지덕사기 등이 있다."/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="청권사부묘소"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a12"/>
+           <TextView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:text="조선 태종의 둘째 아들이며 세종의 형인 효령대군(1396∼1486)의 사당과 묘소이다.
+
+효령대군의 이름은 보(補), 자는 선숙(善叔), 시호는 정효(靖孝)이다. 어려서부터 총명하여 글읽기와 활쏘기를 좋아했고, 부모에 대한 효성이 지극하였다. 세조 10년(1464)에 원각사 창건을 감독하였고, 불교에 독실하여 승려들을 모아 불경을 강론하기도 했다."/>
+
+       </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

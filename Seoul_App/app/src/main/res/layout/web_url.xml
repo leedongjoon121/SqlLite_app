@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/menu_back"
+    android:layout_height="match_parent">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="20dp"
+     android:textStyle="italic"
+     android:textColor="#005E75"
+     android:text="문화재 추천 사이트"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#005E75"
+        android:textStyle="italic"
+        android:text="더 자세한 정보를 원하시는 분들은 참고 하시기 바랍니다."/>
+
+     <Button
+         android:id="@+id/munhwajechong"
+         android:onClick="onClick"
+         android:layout_width="wrap_content"
+         android:padding="0dp"
+         android:layout_height="wrap_content"
+        android:background="@drawable/munhwajechong"/>
+
+    <Button
+        android:id="@+id/seoulasa"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:padding="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/am2"/>
+
+    <Button
+    android:id="@+id/seoulmhpt"
+    android:onClick="onClick"
+    android:layout_width="wrap_content"
+    android:padding="0dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/am3"/>
+
+    <Button
+        android:id="@+id/sdmha"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:padding="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/am4"/>
+
+    <Button
+        android:id="@+id/mhjd"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:padding="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/am5"/>
+
+
+</LinearLayout>
