@@ -1,4 +1,4 @@
-This is simple android app 
+This is simple android app version 0.2
 
 This is seoul cultural assets application 
 This project includes mysqlLite, webView, multiple layout.
